@@ -1,5 +1,5 @@
 # Closira AI Customer Support Workflow
-### AI Engineering Intern Assignment — Bloom Aesthetics Clinic
+### Bloom Aesthetics Clinic
 
 A Python CLI that simulates an AI-powered customer support agent across four stages: FAQ answering, lead qualification, escalation detection, and conversation summary. Built using the Groq API (Llama 3.1).
 
