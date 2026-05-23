@@ -17,11 +17,11 @@ closira-ai-workflow/
 ├── requirements.txt               # Python dependencies
 ├── README.md                      # This file
 ├── test_transcripts/
-│   ├── transcript_1_in_sop_question.md
-│   ├── transcript_2_out_of_scope.md
-│   ├── transcript_3_escalation_sentiment.md
-│   ├── transcript_4_lead_qualification.md
-│   └── transcript_5_conversation_summary.md
+│   ├── transcript1.md
+│   ├── transcript2.md
+│   ├── transcript3.md
+│   ├── transcript4.md
+│   └── transcript5.md
 └── logs/                          # Auto-created at runtime; session logs saved here
 ```
 
@@ -32,7 +32,7 @@ closira-ai-workflow/
 ### 1. Clone the repo
 
 ```bash
-git clone https://github.com/your-username/closira-ai-workflow.git
+git clone https://github.com/Aasrika/closira-ai-workflow.git
 cd closira-ai-workflow
 ```
 
