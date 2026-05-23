@@ -1,0 +1,85 @@
+{
+  "business": {
+    "name": "Bloom Aesthetics Clinic",
+    "tagline": "Natural beauty, expertly enhanced.",
+    "hours": "Monday to Saturday, 9:00 AM – 7:00 PM",
+    "closed": "Sundays and public holidays",
+    "location": "Central London (exact address provided on booking confirmation)",
+    "contact": {
+      "whatsapp": "+44 7700 900123",
+      "website": "www.bloomaesthetics.co.uk",
+      "email": "hello@bloomaesthetics.co.uk"
+    }
+  },
+  "services": [
+    {
+      "name": "Botox (Anti-Wrinkle Injections)",
+      "starting_price": "£200",
+      "description": "Treats forehead lines, frown lines (11s), and crow's feet. Results last 3–4 months.",
+      "areas": ["forehead", "frown lines", "crow's feet", "bunny lines"],
+      "duration_mins": 30,
+      "downtime": "Minimal. Avoid strenuous exercise for 24 hours.",
+      "who_performs": "Qualified aesthetic practitioner"
+    },
+    {
+      "name": "Dermal Fillers",
+      "starting_price": "£250",
+      "description": "Adds volume and definition to lips, cheeks, and jawline. Results last 6–18 months depending on area.",
+      "areas": ["lips", "cheeks", "jawline", "nasolabial folds", "under-eye"],
+      "duration_mins": 45,
+      "downtime": "Mild swelling for 24–48 hours is normal.",
+      "who_performs": "Qualified aesthetic practitioner"
+    },
+    {
+      "name": "Initial Consultation",
+      "starting_price": "Free",
+      "description": "A complimentary 20-minute consultation to discuss your goals, assess suitability, and recommend a treatment plan.",
+      "duration_mins": 20,
+      "note": "Strongly recommended before any first treatment."
+    },
+    {
+      "name": "Skin Booster (Profhilo)",
+      "starting_price": "£300",
+      "description": "Deep skin hydration treatment using hyaluronic acid. Improves skin texture and elasticity. Two sessions recommended, 4 weeks apart.",
+      "duration_mins": 30,
+      "downtime": "Small injection bumps resolve within 24 hours."
+    }
+  ],
+  "booking": {
+    "how_to_book": "Via WhatsApp (+44 7700 900123) or through the website booking form at www.bloomaesthetics.co.uk/book",
+    "cancellation_policy": "24-hour notice required for cancellations. Late cancellations may incur a £30 fee.",
+    "payment": "Card or cash accepted on the day. No deposits required for first bookings.",
+    "patch_test": "Not required for Botox. Fillers may require a patch test at the discretion of the practitioner."
+  },
+  "faqs": [
+    {
+      "question": "Is Botox painful?",
+      "answer": "Most clients describe it as a minor pinching sensation. A numbing cream can be applied on request."
+    },
+    {
+      "question": "How long do results last?",
+      "answer": "Botox typically lasts 3–4 months. Fillers last 6–18 months depending on the treatment area and product used."
+    },
+    {
+      "question": "Are there any side effects?",
+      "answer": "Common side effects include temporary redness, mild swelling, or bruising at the injection site. Serious side effects are rare. Our practitioners will discuss all risks at consultation."
+    },
+    {
+      "question": "Who is not suitable for these treatments?",
+      "answer": "Treatments are not suitable for pregnant or breastfeeding clients, or those with certain medical conditions. Suitability is assessed at consultation."
+    },
+    {
+      "question": "Can I combine Botox and fillers in one session?",
+      "answer": "Yes, combination treatments are possible and will be discussed at your free consultation."
+    }
+  ],
+  "escalation_triggers": [
+    "complaint or dissatisfaction",
+    "medical question beyond listed side effects",
+    "request for pricing negotiation or discount",
+    "more than 2 questions the AI cannot answer from this SOP",
+    "explicit request to speak with a human",
+    "mention of adverse reaction or emergency"
+  ],
+  "sop_boundaries": "This AI assistant is authorised to answer only from the information in this SOP document. For any question outside this scope, it must escalate to a human agent rather than speculate or invent information."
+}
